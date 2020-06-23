@@ -1,6 +1,7 @@
 # Smart Home IoT Flatform
+"IoT System Implementation Method" Term Project  
 
-## "IoT System Implementation Method" Term Project
+## Project Goal
 Using speech recognition model, control home devices(lights, air purifier, etc.) via pre-recorded user voice file.
   
 Related Repos:  

@@ -1,14 +1,14 @@
 from twilio.rest import Client
 
 def twilio_sender(message):
-    TWILIO_ACCOUNT_SID='AC0dad26a0182a5f3947f8115ab00a0c77'
-    TWILIO_AUTH_TOKEN = '405b4ab6edeb11c9c31274dd20bfe3da'
+    TWILIO_ACCOUNT_SID='your_twilio_account_cid'
+    TWILIO_AUTH_TOKEN = 'your_twilio_auth_token'
     
     client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
     
     client.messages.create(
-        to = '+8201066883225',
-        from_ = '+12012926576',
+        to = 'user_phone_num',
+        from_ = 'your_twilio_num',
         body = message
     )
 
